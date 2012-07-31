@@ -1,0 +1,7 @@
+CPP = "/opt/local/bin/g++"
+
+task :default do
+    sh "#{CPP} *.cpp -o ch1"
+end
+
+
